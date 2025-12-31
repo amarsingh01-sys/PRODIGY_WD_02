@@ -1,0 +1,91 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #edeaff;
+        font-family: "Courier Prime", monospace;
+        background-image: url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #main {
+        width: 90%;
+        max-width: 600px;
+        margin: 180px auto 0;
+        padding: 40px 0;
+        text-align: center;
+        color: #fff;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.png);
+        background-size: cover;
+        background-position: center; */
+    }
+    
+    #displayTime {
+        font-size: 64px;
+        margin-bottom: 40px;
+        font-weight: 300;
+    }
+    
+    #buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .btn {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(4px);
+        transition: 0.3s;
+    }
+    
+    .btn:nth-child(1) {
+        padding-bottom: 6px;
+        font-size: 35px;
+    }
+    
+    .btn:nth-child(2) {
+        padding-left: 3px;
+    }
+    
+    .btn:nth-child(3) {
+        font-size: 18px;
+    }
+    
+    .btn:hover {
+        transform: scale(1.1);
+    }
+    
+    .start {
+        width: 85px;
+        height: 85px;
+        background: #ff5f3d;
+        font-size: 28px;
+    }
+    
+    #lapBox {
+        margin-top: 30px;
+        max-height: 160px;
+        overflow-y: auto;
+    }
+    
+    #laps {
+        list-style: none;
+    }
+    
+    #laps li {
+        font-size: 18px;
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
